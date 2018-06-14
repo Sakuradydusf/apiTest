@@ -4,14 +4,14 @@
 ## 代码规范
 1. 命名规范建议
 	1. 测试类命名规范
-    	* 推荐：API名称+Test.如:GetLatestQuestionsByIdTest
-    	* 不推荐：getLatestQuestionsByIdTest,类名应符合驼峰命名规则
+		* 推荐：API名称+Test.如:GetLatestQuestionsByIdTest
+		* 不推荐：getLatestQuestionsByIdTest,类名应符合驼峰命名规则
 	2. BVT用例命名规范
-    	* 推荐:test+API名称+BVTCase.如:testGetLatestQuestionsById
-    	* 不推荐:Test+API名称+BVTCase
+		* 推荐:test+API名称+BVTCase.如:testGetLatestQuestionsById
+		* 不推荐:Test+API名称+BVTCase
 	3. 异常用例命名规范
-	* 推荐:test+API名称+That+异常场景_should+预期结果.如:testGetVolumnByGradeThatGradeNotExists_ShouldRetrunEmpy
-    	* 不推荐:testGetVolumnByGradeThatGrade1
+		* 推荐:test+API名称+That+异常场景_should+预期结果.如:testGetVolumnByGradeThatGradeNotExists_ShouldRetrunEmpy
+		* 不推荐:testGetVolumnByGradeThatGrade1
 2. 注释
 	1. 测试类注释 说明测试的接口
 	```java
